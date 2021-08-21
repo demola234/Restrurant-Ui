@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8036203326CF2F4000F689CE /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036203226CF2F4000F689CE /* ProductView.swift */; };
+		8036203526CF315E00F689CE /* TabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036203426CF315E00F689CE /* TabViews.swift */; };
+		8088EF0226CEF28B00CD26A3 /* CategoriesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088EF0126CEF28B00CD26A3 /* CategoriesModels.swift */; };
+		8088EF0426CEF46100CD26A3 /* MenuModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088EF0326CEF46100CD26A3 /* MenuModels.swift */; };
+		8088EF0726CEF9F200CD26A3 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088EF0626CEF9F200CD26A3 /* MenuButton.swift */; };
+		8088EF0926CEFC1B00CD26A3 /* CategoryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088EF0826CEFC1B00CD26A3 /* CategoryViews.swift */; };
+		8088EF0B26CF152700CD26A3 /* DM_Sans in Resources */ = {isa = PBXBuildFile; fileRef = 8088EF0A26CF152700CD26A3 /* DM_Sans */; };
+		8088EF0D26CF1EC000CD26A3 /* MenuViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088EF0C26CF1EC000CD26A3 /* MenuViews.swift */; };
+		8094DFEB26ACF4A800082B86 /* RestrantApp_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8094DFEA26ACF4A800082B86 /* RestrantApp_UIApp.swift */; };
+		8094DFED26ACF4A800082B86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8094DFEC26ACF4A800082B86 /* ContentView.swift */; };
+		8094DFEF26ACF4A900082B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8094DFEE26ACF4A900082B86 /* Assets.xcassets */; };
+		8094DFF226ACF4A900082B86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8094DFF126ACF4A900082B86 /* Preview Assets.xcassets */; };
+		8094DFFC26ACF4A900082B86 /* RestrantApp_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8094DFFB26ACF4A900082B86 /* RestrantApp_UITests.swift */; };
+		8094E00626ACF4A900082B86 /* RestrantApp_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8094E00526ACF4A900082B86 /* RestrantApp_UIUITests.swift */; };
+		8094E01526ACF4D100082B86 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8094E01426ACF4D100082B86 /* Home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8094DFF826ACF4A900082B86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8094DFDF26ACF4A800082B86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8094DFE626ACF4A800082B86;
+			remoteInfo = "RestrantApp-UI";
+		};
+		8094E00226ACF4A900082B86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8094DFDF26ACF4A800082B86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8094DFE626ACF4A800082B86;
+			remoteInfo = "RestrantApp-UI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8036203226CF2F4000F689CE /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		8036203426CF315E00F689CE /* TabViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViews.swift; sourceTree = "<group>"; };
+		8088EF0126CEF28B00CD26A3 /* CategoriesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesModels.swift; sourceTree = "<group>"; };
+		8088EF0326CEF46100CD26A3 /* MenuModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModels.swift; sourceTree = "<group>"; };
+		8088EF0626CEF9F200CD26A3 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		8088EF0826CEFC1B00CD26A3 /* CategoryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViews.swift; sourceTree = "<group>"; };
+		8088EF0A26CF152700CD26A3 /* DM_Sans */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DM_Sans; path = ../../../../Downloads/DM_Sans; sourceTree = "<group>"; };
+		8088EF0C26CF1EC000CD26A3 /* MenuViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViews.swift; sourceTree = "<group>"; };
+		8094DFE726ACF4A800082B86 /* RestrantApp-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RestrantApp-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8094DFEA26ACF4A800082B86 /* RestrantApp_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrantApp_UIApp.swift; sourceTree = "<group>"; };
+		8094DFEC26ACF4A800082B86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8094DFEE26ACF4A900082B86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8094DFF126ACF4A900082B86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8094DFF726ACF4A900082B86 /* RestrantApp-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RestrantApp-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8094DFFB26ACF4A900082B86 /* RestrantApp_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrantApp_UITests.swift; sourceTree = "<group>"; };
+		8094E00126ACF4A900082B86 /* RestrantApp-UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RestrantApp-UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8094E00526ACF4A900082B86 /* RestrantApp_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrantApp_UIUITests.swift; sourceTree = "<group>"; };
+		8094E01426ACF4D100082B86 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8094DFE426ACF4A800082B86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8094DFF426ACF4A900082B86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8094DFFE26ACF4A900082B86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8088EF0526CEF94700CD26A3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8088EF0626CEF9F200CD26A3 /* MenuButton.swift */,
+				8088EF0826CEFC1B00CD26A3 /* CategoryViews.swift */,
+				8088EF0C26CF1EC000CD26A3 /* MenuViews.swift */,
+				8036203426CF315E00F689CE /* TabViews.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8094DFDE26ACF4A800082B86 = {
+			isa = PBXGroup;
+			children = (
+				8094DFE926ACF4A800082B86 /* RestrantApp-UI */,
+				8094DFFA26ACF4A900082B86 /* RestrantApp-UITests */,
+				8094E00426ACF4A900082B86 /* RestrantApp-UIUITests */,
+				8094DFE826ACF4A800082B86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8094DFE826ACF4A800082B86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8094DFE726ACF4A800082B86 /* RestrantApp-UI.app */,
+				8094DFF726ACF4A900082B86 /* RestrantApp-UITests.xctest */,
+				8094E00126ACF4A900082B86 /* RestrantApp-UIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8094DFE926ACF4A800082B86 /* RestrantApp-UI */ = {
+			isa = PBXGroup;
+			children = (
+				8088EF0A26CF152700CD26A3 /* DM_Sans */,
+				8094E01326ACF4BB00082B86 /* Models */,
+				8094E01226ACF4B000082B86 /* Views */,
+				8094DFEA26ACF4A800082B86 /* RestrantApp_UIApp.swift */,
+				8094DFEC26ACF4A800082B86 /* ContentView.swift */,
+				8094DFEE26ACF4A900082B86 /* Assets.xcassets */,
+				8094DFF026ACF4A900082B86 /* Preview Content */,
+			);
+			path = "RestrantApp-UI";
+			sourceTree = "<group>";
+		};
+		8094DFF026ACF4A900082B86 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8094DFF126ACF4A900082B86 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8094DFFA26ACF4A900082B86 /* RestrantApp-UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8094DFFB26ACF4A900082B86 /* RestrantApp_UITests.swift */,
+			);
+			path = "RestrantApp-UITests";
+			sourceTree = "<group>";
+		};
+		8094E00426ACF4A900082B86 /* RestrantApp-UIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8094E00526ACF4A900082B86 /* RestrantApp_UIUITests.swift */,
+			);
+			path = "RestrantApp-UIUITests";
+			sourceTree = "<group>";
+		};
+		8094E01226ACF4B000082B86 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8088EF0526CEF94700CD26A3 /* Components */,
+				8094E01426ACF4D100082B86 /* Home.swift */,
+				8036203226CF2F4000F689CE /* ProductView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8094E01326ACF4BB00082B86 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8088EF0126CEF28B00CD26A3 /* CategoriesModels.swift */,
+				8088EF0326CEF46100CD26A3 /* MenuModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8094DFE626ACF4A800082B86 /* RestrantApp-UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8094E00926ACF4A900082B86 /* Build configuration list for PBXNativeTarget "RestrantApp-UI" */;
+			buildPhases = (
+				8094DFE326ACF4A800082B86 /* Sources */,
+				8094DFE426ACF4A800082B86 /* Frameworks */,
+				8094DFE526ACF4A800082B86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RestrantApp-UI";
+			productName = "RestrantApp-UI";
+			productReference = 8094DFE726ACF4A800082B86 /* RestrantApp-UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8094DFF626ACF4A900082B86 /* RestrantApp-UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8094E00C26ACF4A900082B86 /* Build configuration list for PBXNativeTarget "RestrantApp-UITests" */;
+			buildPhases = (
+				8094DFF326ACF4A900082B86 /* Sources */,
+				8094DFF426ACF4A900082B86 /* Frameworks */,
+				8094DFF526ACF4A900082B86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8094DFF926ACF4A900082B86 /* PBXTargetDependency */,
+			);
+			name = "RestrantApp-UITests";
+			productName = "RestrantApp-UITests";
+			productReference = 8094DFF726ACF4A900082B86 /* RestrantApp-UITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8094E00026ACF4A900082B86 /* RestrantApp-UIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8094E00F26ACF4A900082B86 /* Build configuration list for PBXNativeTarget "RestrantApp-UIUITests" */;
+			buildPhases = (
+				8094DFFD26ACF4A900082B86 /* Sources */,
+				8094DFFE26ACF4A900082B86 /* Frameworks */,
+				8094DFFF26ACF4A900082B86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8094E00326ACF4A900082B86 /* PBXTargetDependency */,
+			);
+			name = "RestrantApp-UIUITests";
+			productName = "RestrantApp-UIUITests";
+			productReference = 8094E00126ACF4A900082B86 /* RestrantApp-UIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8094DFDF26ACF4A800082B86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					8094DFE626ACF4A800082B86 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					8094DFF626ACF4A900082B86 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 8094DFE626ACF4A800082B86;
+					};
+					8094E00026ACF4A900082B86 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 8094DFE626ACF4A800082B86;
+					};
+				};
+			};
+			buildConfigurationList = 8094DFE226ACF4A800082B86 /* Build configuration list for PBXProject "RestrantApp-UI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8094DFDE26ACF4A800082B86;
+			productRefGroup = 8094DFE826ACF4A800082B86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8094DFE626ACF4A800082B86 /* RestrantApp-UI */,
+				8094DFF626ACF4A900082B86 /* RestrantApp-UITests */,
+				8094E00026ACF4A900082B86 /* RestrantApp-UIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8094DFE526ACF4A800082B86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8088EF0B26CF152700CD26A3 /* DM_Sans in Resources */,
+				8094DFF226ACF4A900082B86 /* Preview Assets.xcassets in Resources */,
+				8094DFEF26ACF4A900082B86 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8094DFF526ACF4A900082B86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8094DFFF26ACF4A900082B86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8094DFE326ACF4A800082B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8088EF0426CEF46100CD26A3 /* MenuModels.swift in Sources */,
+				8036203326CF2F4000F689CE /* ProductView.swift in Sources */,
+				8094DFED26ACF4A800082B86 /* ContentView.swift in Sources */,
+				8088EF0726CEF9F200CD26A3 /* MenuButton.swift in Sources */,
+				8094E01526ACF4D100082B86 /* Home.swift in Sources */,
+				8094DFEB26ACF4A800082B86 /* RestrantApp_UIApp.swift in Sources */,
+				8036203526CF315E00F689CE /* TabViews.swift in Sources */,
+				8088EF0D26CF1EC000CD26A3 /* MenuViews.swift in Sources */,
+				8088EF0926CEFC1B00CD26A3 /* CategoryViews.swift in Sources */,
+				8088EF0226CEF28B00CD26A3 /* CategoriesModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8094DFF326ACF4A900082B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8094DFFC26ACF4A900082B86 /* RestrantApp_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8094DFFD26ACF4A900082B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8094E00626ACF4A900082B86 /* RestrantApp_UIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8094DFF926ACF4A900082B86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8094DFE626ACF4A800082B86 /* RestrantApp-UI */;
+			targetProxy = 8094DFF826ACF4A900082B86 /* PBXContainerItemProxy */;
+		};
+		8094E00326ACF4A900082B86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8094DFE626ACF4A800082B86 /* RestrantApp-UI */;
+			targetProxy = 8094E00226ACF4A900082B86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8094E00726ACF4A900082B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8094E00826ACF4A900082B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8094E00A26ACF4A900082B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RestrantApp-UI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3VN32FCAR7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mine.RestrantApp-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8094E00B26ACF4A900082B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RestrantApp-UI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3VN32FCAR7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mine.RestrantApp-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8094E00D26ACF4A900082B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VN32FCAR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mine.RestrantApp-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestrantApp-UI.app/RestrantApp-UI";
+			};
+			name = Debug;
+		};
+		8094E00E26ACF4A900082B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VN32FCAR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mine.RestrantApp-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestrantApp-UI.app/RestrantApp-UI";
+			};
+			name = Release;
+		};
+		8094E01026ACF4A900082B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VN32FCAR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mine.RestrantApp-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RestrantApp-UI";
+			};
+			name = Debug;
+		};
+		8094E01126ACF4A900082B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VN32FCAR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mine.RestrantApp-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RestrantApp-UI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8094DFE226ACF4A800082B86 /* Build configuration list for PBXProject "RestrantApp-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8094E00726ACF4A900082B86 /* Debug */,
+				8094E00826ACF4A900082B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8094E00926ACF4A900082B86 /* Build configuration list for PBXNativeTarget "RestrantApp-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8094E00A26ACF4A900082B86 /* Debug */,
+				8094E00B26ACF4A900082B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8094E00C26ACF4A900082B86 /* Build configuration list for PBXNativeTarget "RestrantApp-UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8094E00D26ACF4A900082B86 /* Debug */,
+				8094E00E26ACF4A900082B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8094E00F26ACF4A900082B86 /* Build configuration list for PBXNativeTarget "RestrantApp-UIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8094E01026ACF4A900082B86 /* Debug */,
+				8094E01126ACF4A900082B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8094DFDF26ACF4A800082B86 /* Project object */;
+}
